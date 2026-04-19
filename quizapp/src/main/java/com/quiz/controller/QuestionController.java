@@ -5,13 +5,11 @@ import com.quiz.service.QuestionService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
 @RequestMapping("/question")
 public class QuestionController {
-
 
    private final QuestionService questionService;
 
